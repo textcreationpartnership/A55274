@@ -1,0 +1,648 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A poem upon the undertaking of the Royal Company of Scotland Trading to Africa and the Indies</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1697</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A55274</idno>
+            <idno type="STC">Wing P2718</idno>
+            <idno type="STC">ESTC R220470</idno>
+            <idno type="EEBO-CITATION">99831870</idno>
+            <idno type="PROQUEST">99831870</idno>
+            <idno type="VID">36337</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A55274)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 36337)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2053:06)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A poem upon the undertaking of the Royal Company of Scotland Trading to Africa and the Indies</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for James Wardlaw, and to be sold at his shop in the Parliament closs,</publisher>
+                  <pubPlace>Edinburgh :</pubPlace>
+                  <date>1697.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect; cropped at head, affecting page numbers and some text.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Company of Scotland Trading to Africa and the Indies --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-01</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-01</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:36337:1" rendition="simple:additions"/>
+            <p>A POEM Upon the Undertaking of the Royal Company of SCOTLAND, TRADING TO AFRICA And the INDIES.</p>
+            <p>EDINBURGH, Printed for <hi>James Wardlaw,</hi> and to be ſold at his Shop in the Parliament Cloſs, 1697.</p>
+            <pb facs="tcp:36337:2"/>
+            <pb facs="tcp:36337:2" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:36337:3"/>
+            <pb facs="tcp:36337:3"/>
+            <head>A POEM Upon the Undertaking of the Royal Com<g ref="char:EOLhyphen"/>pany of SCOTLAND, Trading to AFRICA and the INDIES.</head>
+            <lg>
+               <l>LOng lay Great <hi>Britan</hi> in the Ocean's Armes,</l>
+               <l>Naked, Unſeen, Undreſt &amp; void of Charms;</l>
+               <l>Unknown to Others, ſcarce to her ſelf well known,</l>
+               <l>Content with half of what was then her own,</l>
+               <l>Rich only in her Native Innocence,</l>
+               <l>When other Nations brought their Riches hence.</l>
+            </lg>
+            <lg>
+               <l>The Wiſe <hi>Phaenecians, Neptune</hi> did adore,</l>
+               <l>Long e're the Warlik <hi>Romans</hi> knew his Power,</l>
+               <l>
+                  <hi>Mars</hi> was their God to him with Zeal they bow'd,</l>
+               <l>And hardly maimed Rites to <hi>Jove</hi> allow'd:</l>
+               <l>His Image did adorn their Capitol,</l>
+               <l>They ſtil'd him Mighty <hi>Jove,</hi> and that was all;</l>
+               <l>All other Altars, did neglected ly,</l>
+               <pb facs="tcp:36337:4"/>
+               <l>Whilſt <hi>Mars</hi> his Temples ſmoakt continually,</l>
+               <l>No Victimes there did bleed to <hi>Neptunes</hi> Name,</l>
+               <l>They only heard of ſuch a God by Fame,</l>
+               <l>And hated him by Nature mortally,</l>
+               <l>Becauſe he did protect their Enemy,</l>
+               <l>
+                  <hi>Carthage</hi> their Rival did that God adore,</l>
+               <l>He loaded them with Wealth from ev'ry Shoar.</l>
+               <l>But <hi>Mars</hi> delights to keep his People poor<g ref="char:punc">▪</g>
+               </l>
+               <l>For Poverty does make all Mankind brave.</l>
+               <l>Few Value Life, who no Convenience have,</l>
+               <l>Theſe from their birth were alwayſe Rival Gods,</l>
+               <l>
+                  <hi>Neptune</hi> and <hi>Mars</hi> were ever more at odds?</l>
+               <l>Theſe <hi>Mars</hi> prefers, wiſe <hi>Neptune</hi> ſtill neglects,</l>
+               <l>As <hi>Albion</hi> now does find by ſad efects.</l>
+               <l>
+                  <hi>Neptun</hi>'s the God the <hi>Britans</hi> firſt did know,</l>
+               <l>His right to them did <hi>Carthaginians</hi> ſhow.</l>
+            </lg>
+            <lg>
+               <l>In <hi>Carthage</hi> Ships which hither came for Tinn,</l>
+               <l>(As ſame reports) did <hi>Britans</hi> Trade begin.</l>
+               <l>
+                  <hi>Carbage</hi> the child of <hi>Tyre,</hi> that Queen of Trade</l>
+               <l>Long courted <hi>Albion,</hi> but did ne're invade.</l>
+               <l>Then with their ſhips their <hi>chiefeſt god</hi> was brought</l>
+               <l>A God whoſe harmles Rites are eaſely taught.</l>
+               <l>A God whoſe ehief delight is liberty,</l>
+               <l>
+                  <hi>A</hi> God abhores all ſorts of tyranny:</l>
+               <l>VVhither of one or many; matters not,</l>
+               <l>Hated Opreſſion was in Hell begot:</l>
+               <l>But of all ſorts with which the World's acurſt,</l>
+               <l>The many Headed Tyrant is the worſt,</l>
+               <l>
+                  <hi>Albion</hi> has felt them all<g ref="char:punc">▪</g> her wealth and eaſe</l>
+               <l>Makes them in liberty ſo hard to pleaſe,</l>
+               <pb facs="tcp:36337:4"/>
+               <l>There's ſcarce an Age but brings her old diſeaſe,</l>
+               <l>And at the firſt Invaſion <hi>Caeſar</hi> brought,</l>
+               <l>
+                  <hi>Romes</hi> Arms, and <hi>Mars</hi> here firſt oppreſſion taught.</l>
+               <l>With Fears and Jealouſies in wealth they ſwell,</l>
+               <l>They ſeem to want Diverſion when they'r well.</l>
+               <l>In times like theſe they muſt their errours ſee.</l>
+               <l>Ah! may they for the future wiſer be,</l>
+               <l>And throw no more away their Trade by Sea.</l>
+            </lg>
+            <lg>
+               <l>When <hi>Neptune</hi> firſt did to this Iſle reſort,</l>
+               <l>Pleaſ'd with its Site, he placed there his Court,</l>
+               <l>And ſeldom did his Preſence thence withdraw,</l>
+               <l>But when his hated Rival gave the Law.</l>
+               <l>The Fates and Nature did divide the Land,</l>
+               <l>
+                  <hi>Albions</hi> two Daughters, each their Part co<g ref="char:cmbAbbrStroke">̄</g>mand.</l>
+               <l>Two Nimphs of Equal Beautie, Twins by Birth,</l>
+               <l>Did eq<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ally divide their Native Earth,</l>
+               <l>The Eldeſt South, the Youngeſt Northward Reigns.</l>
+               <l>This over Mountains, that o're fertile Plains.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Neptune</hi> did <hi>Caledonia</hi> Court, diſdainfull She</l>
+               <l>Slighted his Love, would <hi>Mars</hi> his Miſtris be,</l>
+               <l>That God who does in Human Blood delight,</l>
+               <l>Him She ador'd, and forc't her Sons to fight.</l>
+               <l>Firſt in domeſtick ſlaughters taught them Wars,</l>
+               <l>Then drove them thence to ſearch for death &amp; ſcars</l>
+               <l>On <hi>forraign ſhoars,</hi> they ſtarving honour got</l>
+               <l>No Land but boaſts the <hi>Tomh</hi> of ſome great <hi>SCOT</hi>
+               </l>
+               <l>Thus to delight her cruel Lovers Eyes,</l>
+               <l>By Law ſhe does her Children ſacrifice,</l>
+               <l>An Army on his Altar yearly dyes.</l>
+               <l>Worthies, who had they been in Trade imploy'd</l>
+               <pb facs="tcp:36337:5"/>
+               <l>Had brought her Riches in at every Tide,</l>
+               <l>For Liberal <hi>Neptune,</hi> did preſent her Store.</l>
+               <l>Of Fiſhfull Harbours round about her Shoar</l>
+               <l>No Nation in the World can boaſt of more.</l>
+            </lg>
+            <lg>
+               <l>Fame ſayes two Weirds did there arive of old,</l>
+               <l>And bids the Natives ſearch their Hills for Gold.</l>
+               <l>But blind unthinking Mortals ſure they be,</l>
+               <l>Who turn up Rocks when they may plow the Sea</l>
+               <l>Fate the true ſource of Wealth to <hi>Neptune</hi> gave,</l>
+               <l>God <hi>Pluto</hi> is no more then <hi>Neptunes</hi> Slave.</l>
+               <l>He digs towards Hell, &amp; from its Confines draws</l>
+               <l>Money, the Scales of Wealth, but not the Cauſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Riches proceed from Labour well imploy'd,</l>
+               <l>When mutual Uſe of things does Men divide.</l>
+               <l>Money's the Standart does the Cauſe decide,</l>
+               <l>But 'tis its Name, not Nature which prevai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Money and Money worth are equal Scales:</l>
+               <l>Trace but the World, you'l find theſe Lands moſt poor</l>
+               <l>Abound in Mynes and boaſt the richeſt Oar.</l>
+               <l>But every Nation which frequent the Seas,</l>
+               <l>Wallow in Wealth, and paſs their time at Eaſe.</l>
+               <l>Trade needs no fertile Acres for Support,</l>
+               <l>Where ever Freedom lives, it makes its Court;</l>
+               <l>And only craves a ſafe and open Port;</l>
+               <l>Wherever it thrives, there Strangers do abound,</l>
+               <l>But where its wanting, Penury is found,</l>
+               <l>And makes ſuch Land unhoſpitable Ground.</l>
+            </lg>
+            <lg>
+               <l>A proof of which is miſerable Me.</l>
+               <l>Who never did an willing injurie.</l>
+               <l>And yet have more then ſix years Priſon found,</l>
+               <pb n="7" facs="tcp:36337:5"/>
+               <l>For ſetting foot on <hi>Caledonian</hi> Ground,</l>
+               <l>No wonder then that when I touch my Lyre,</l>
+               <l>My tunes runs low becauſe they want their Fyre.</l>
+               <l>The Theam I treat is Glorious, Great and Brave</l>
+               <l>But he that ſings it a poor chain'd Slave,</l>
+               <l>Like caged Birds; he utters broken Notes,</l>
+               <l>Theſe whiſtle loud, poor things and ſtreach their throats</l>
+               <l>Putting Complaints in Tune &amp; warblings Sighs,</l>
+               <l>To move ſome pity to their Miſeries.</l>
+               <l>But all in vain; as vainly do I ſing,</l>
+               <l>For none that hear me dare compaſſion bring;</l>
+               <l>To ſpeak on my behalf proves bad intent,</l>
+               <l>But to aſſiſt me's Boot or Baniſhment</l>
+               <l>Ill muſt a Stranger ſurely paſs his Time.</l>
+               <l>Where Pity's Sin, and Charity a Crime!</l>
+               <l>A wanting Stranger too deſpiſ'd by all,</l>
+               <l>Whoſe bare Complaints are counted criminal.</l>
+               <l>Ceaſe then my Muſe, and ſpeak of this no more</l>
+               <l>But ſhift thy Fancie to the <hi>Engliſh</hi> Shoar,</l>
+               <l>An Hoſpitable Shoar by Trade refin'd,</l>
+               <l>To Strangers ever Equal, Juſt and Kind</l>
+               <l>Ah! Heav'n that to their Kings they were the fame</l>
+               <l>In this they fail, in this they are to blame.</l>
+               <l>Their Errours on that head do Volumns ſwell,</l>
+               <l>Ah! might they ever in Oblivion dwell.</l>
+            </lg>
+            <lg>
+               <l>In that once happy Land, &amp; may it be,</l>
+               <l>Happy again, which I ſcarce hope to ſee.</l>
+               <l>There lives a ſort of Merchants might become</l>
+               <l>The wiſeſt Council Board in Chriſtendome.</l>
+               <l>Numbers of ſuch who do as rightly know.</l>
+               <pb facs="tcp:36337:6"/>
+               <l>Men's interen in things as Man can do.</l>
+               <l>True Sons of <hi>Neptune,</hi> who have wonders done<g ref="char:punc">▪</g>
+               </l>
+               <l>And think of all the World as one great Town.</l>
+               <l>Men whoſe conſummat Underſtanding knô,</l>
+               <l>The rates of hazard, and what's ſafe to do.</l>
+               <l>How to joyn Stock, and how to ſhare the Gaine,</l>
+               <l>Such as all litigating tri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ks diſdaine.</l>
+               <l>Never o'r buſie, never unimploy'd,</l>
+               <l>But between Care and Pleaſure time divide.</l>
+               <l>New Undertakings hourly they deviſe,</l>
+               <l>Their very Table Talk would make one Wiſe.</l>
+            </lg>
+            <lg>
+               <l>In this <hi>great School,</hi> ſome <hi>Scots-men</hi> now are bred,</l>
+               <l>And there find out the Miſteries of Trade.</l>
+               <l>Whence as their Genius leads them, thence they'll go,</l>
+               <l>To every Forraign Nation, <hi>Engliſh</hi> knô.</l>
+               <l>To <hi>Turky, Italy,</hi> and <hi>Africa,</hi>
+               </l>
+               <l>To <hi>India, Perſia,</hi> and <hi>America:</hi>
+               </l>
+               <l>Amongſt the Many, viſite every Shoar,</l>
+               <l>Judicious <hi>Paterſon,</hi> and many more.</l>
+               <l>Fraught with Experience, back again doth come,</l>
+               <l>Striving to propagat their Skill at home:</l>
+               <l>Home where all Mankind wiſh to find their Reſt,</l>
+               <l>A Charm which makes all Countreys ſeem the Beſt.</l>
+               <l>Why it is ſo? Reaſon is at a ſtand,</l>
+               <l>But all Men wiſh their Graves in Native Land.</l>
+            </lg>
+            <lg>
+               <l>Should I thoſe Worthies go about to Name,</l>
+               <l>'T were endleſs work, they will ſurvive in Fame,</l>
+               <l>To times theſe creeping Lines ſhall never ſee,</l>
+               <l>To times after, which no time ſhall be.</l>
+               <l>That endleſs Glory nothing can prevent,</l>
+               <pb facs="tcp:36337:6"/>
+               <l>
+                  <hi>England</hi> Records their Names in Parliament.</l>
+            </lg>
+            <lg>
+               <l>Envy does ever Frantick Council give,</l>
+               <l>Envy that would deſtroy, ſhall make them live<g ref="char:punc">▪</g>
+               </l>
+               <l>Envy that ugly Flag, with Sneakie Hair,</l>
+               <l>Which in her rage, doth her own Intrals tear,</l>
+               <l>Envy that Child of Pride begot in Hell,</l>
+               <l>Oh! May ſhe ever with our Neighbours dwell<g ref="char:punc">▪</g>
+               </l>
+               <l>Theſe Neighbours which ſo hate our <hi>Britiſh Iſle,</hi>
+               </l>
+               <l>They ſeek our Ruine, at our Loſſes ſmile.</l>
+               <l>That Furie which could wiſh no Land to thrive,</l>
+               <l>With ſcrieching Cryes did the Alarum give.</l>
+               <l>As if ſome dreadful Fire again had layd,</l>
+               <l>Our Wealth in Aſhes, &amp; deſtroy,d our Trade,</l>
+               <l>Or, that ſome Potent Nation did Invade.</l>
+               <l>Haſte, looke about you, <hi>Engliſh</hi> Men, ſhe cryes,</l>
+               <l>The <hi>Scots</hi> will Trade, <hi>Scotland</hi> is growing Wiſe.</l>
+               <l>Her Senat does diſcern her Intereſt,</l>
+               <l>They'll choice Trade, by which you once were Bleſt.</l>
+               <l>Free Trade to the <hi>Indies</hi> and <hi>America,</hi>
+               </l>
+               <l>Will make them Rich like you, you poor as they.</l>
+            </lg>
+            <lg>
+               <l>The Poyſon drunk, ſoon the Infection ſpreads,</l>
+               <l>Malice, Diſdain, and Miſchief, filll their Heads.</l>
+               <l>Three Furies which do Envy ſtill attend,</l>
+               <l>And never do diſtinguiſh Foe from Friend.</l>
+               <l>Now theſe that could ſilently ſit, and ſee</l>
+               <l>
+                  <hi>Bantam</hi> ſurpriz'd, <hi>Amboyna</hi> ruin'd be;</l>
+               <l>The <hi>Greenland</hi> Trade deſtroy'd, the <hi>Baltick</hi> loſt,</l>
+               <l>And <hi>Holland</hi> Fleets ſtill Fiſhing on our Coaſt;</l>
+               <l>That could with Patience part with <hi>Suranam,</hi>
+               </l>
+               <l>And let all Trading run to <hi>Amſterdam.</hi>
+               </l>
+               <pb n="10" facs="tcp:36337:7"/>
+               <l>At a wiſe Thing at home inraged grow,</l>
+               <l>And by their Votes the outmoſt malice ſhow:</l>
+               <l>As if that <hi>Scotland</hi>'s ruine they deſign'd,</l>
+               <l>As if the Lands were not together joyn'd;</l>
+               <l>When joyn'd they be, by Power and Nature to,</l>
+               <l>So that th' ones fall, the other muſt undo:</l>
+               <l>Let Trade increaſe, no matter where's its Seat,</l>
+               <l>If either Thrieve, it's <hi>Britanny</hi> grows Great.</l>
+               <l>That <hi>Scotland</hi>'s like to Thrieve is very plaine,</l>
+               <l>They've got a Law, and can that Law maintaine;</l>
+               <l>A Law that ſets all ſorts of Trading free,</l>
+               <l>No Land, a Wiſer Land did ever ſee:</l>
+               <l>The <hi>Engliſh</hi> anger proves it's Excellence,</l>
+               <l>They learn the Mighty Value of it thence:</l>
+               <l>Wiſe <hi>Paterſon,</hi> or's Friends, could charm but few,</l>
+               <l>Tho all they ſaid, was Potent, Juſt, and True,</l>
+               <l>They made it evident, that Trade by Sea,</l>
+               <l>Needs little more Support, than being free,</l>
+               <l>Freedom's the Polar-ſtar, by which it ſteers,</l>
+               <l>Secure its Freedom, and it nothing fears.</l>
+               <l>No mighty Power it needs, no fertile Lands,</l>
+               <l>No Gold, nor Silver Mines, it all commands.</l>
+               <l>All that our Nature needs, or can deſire,</l>
+               <l>All that for Pride or pleaſure we require.</l>
+               <l>Free Trade will give, and teach us how to uſe,</l>
+               <l>Inſtruct us what to take, and what refuſe:</l>
+               <l>Trade has a ſecret Vertue none can ſee,</l>
+               <l>Tho ne're ſo Wiſe, except they Traders be.</l>
+               <l>It is not ten <hi>per Cent,</hi> nor three times ten,</l>
+               <l>Makes a Land Rich, but many Trading Men.</l>
+               <pb n="11" facs="tcp:36337:7"/>
+               <l>Men Skill'd, the Myſter<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es of Trade, that know</l>
+               <l>Its Springs, and how to ſtop or let them flow:</l>
+               <l>Freedo<g ref="char:cmbAbbrStroke">̄</g> draws ſuch, &amp; where there's many found,</l>
+               <l>It is moſt certain, Riches will abound.</l>
+               <l>An hundred ſuch, ten thouſand do imploy.</l>
+               <l>Who find their <hi>Wealth</hi> increaſe, but know not <hi>why,</hi>
+               </l>
+               <l>And as they Thrive, their Members multiply,</l>
+               <l>The want of Money ſuch joynt Stocks ſupply,</l>
+               <l>When diverſe gaine by few Mens Induſtry.</l>
+            </lg>
+            <lg>
+               <l>To the Diſcourſe the Senat lend an Ear,</l>
+               <l>Some vote the Cauſe, who the Effects do fear:</l>
+               <l>Tho one and all conſent to the Deſign,</l>
+               <l>Not one in ten did mean therein to joyn.</l>
+               <l>In all Debates, where there are many ſpeak,</l>
+               <l>Th' Ignorant ſtill do moſt Objections make:</l>
+               <l>And not diſcerning where the matter lyes,</l>
+               <l>Seek by much doubting to be counted Wiſe.</l>
+               <l>They anſwer when Right Reaſon proves they err<g ref="char:punc">▪</g>
+               </l>
+               <l>You'l pardon me, it's my Opinion, Sir,</l>
+               <l>In all elected Councils theſe abound,</l>
+               <l>Such heads like empty Veſſels make a ſound:</l>
+               <l>The brainleſs gaping Vulgar hear the Noiſe,</l>
+               <l>And underſtanding nothing, vote them Wiſe:</l>
+               <l>Theſe Envy's activ'ſt Agents alwiſe be,</l>
+               <l>They can ſpy dangers no Wiſe Man can ſee.</l>
+               <l>Alas! cry ſuch, our Land you know is poor.</l>
+               <l>What mighty Stock have we to bring in more.</l>
+            </lg>
+            <lg>
+               <l>As wiſely did the Ancient <hi>Britiſh</hi> cry,</l>
+               <l>We were born naked <hi>Romans,</hi> ſo we'll dy.</l>
+               <l>We feel, the <hi>Cold,</hi> &amp; know your <hi>Robes</hi> are warme,</l>
+               <pb facs="tcp:36337:8"/>
+               <l>Yet ſhould we us them, they'd but do us harme,</l>
+               <l>Make us grow Lazie, and in Eaſe delight,</l>
+               <l>Our Bodies tender, and unapt to fight.</l>
+               <l>So ſay theſe Talkers, mighty Trade would be</l>
+               <l>A ſharper ſpurr to growing Luxurie.</l>
+               <l>'Twould but increaſe our charge by Servants fees,</l>
+               <l>Make the Poor eaſie, they'll grow ill to pleaſe.</l>
+               <l>Such Stuff as this, does coſt but little thought,</l>
+               <l>Yet by ſuch Stuff, all Vulgar Heads are caught.</l>
+               <l>Blinded by Cuſtome, Reaſon they oppoſe,</l>
+               <l>And never ſee one inch before their Noſe.</l>
+               <l>It's not an eaſie Task to ſtemm the Tide</l>
+               <l>Of noiſie Scoffers, which do ſtill deride,</l>
+               <l>All that her brutal Senſes have not try'd.</l>
+            </lg>
+            <lg>
+               <l>I who know this, and ſee what here is done,</l>
+               <l>Admire the ſteddy Soul of <hi>Paterſon.</hi>
+               </l>
+               <l>It is no common Genius can perſwade,</l>
+               <l>A Nation bred in Warr, to think of Trade.</l>
+               <l>It is no leſs than <hi>Solomon</hi> could ſhew,</l>
+               <l>Their Intereſt in it to the Warlick <hi>Jew.</hi>
+               </l>
+               <l>'T was fi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> indeed, the Wiſeſt thing on Earth,</l>
+               <l>Should to the Wiſeſt Monarch owe its Birth:</l>
+               <l>Thoſe people once Bleſt, with that mighty Prince,</l>
+               <l>Have been a Trading Nation ever ſince.</l>
+               <l>Where e'r diſpers'd, where e'r they Strangers be,</l>
+               <l>They ſtill do propagat this Myſterie.</l>
+            </lg>
+            <lg>
+               <l>From <hi>Paleſtine,</hi> and its <hi>Phenecian</hi> Shoar,</l>
+               <l>Wiſe Navigation ſpread the World all o'r.</l>
+               <l>The <hi>Jews</hi> where ever born, are Merchants all,</l>
+               <l>What's Art in Us, in them ſeems Natural.</l>
+               <pb facs="tcp:36337:8"/>
+               <l>We muſt to Prentice, e'r we learn to Trade,</l>
+               <l>They from their Infancy are Merchants bred.</l>
+               <l>They ſeem of Providence the ſpecial Care,</l>
+               <l>Of all great Things, they have the greateſt Share,</l>
+               <l>And prove wiſe Merchants, never Exiles are.</l>
+               <l>Their Countrey loſt, the World's all their own,</l>
+               <l>Where e'r they live, they ſeem to be at Home.</l>
+               <l>Their <hi>Righteous Fathers Faith,</hi> was <hi>Bleſt</hi> from <hi>Heaven,</hi>
+               </l>
+               <l>To them the <hi>Law</hi> and <hi>Goſpel</hi> both were given.</l>
+               <l>And tho by them defill'd, they yet were made,</l>
+               <l>The Inſtruments to ſpread theſe Truths by Trade.</l>
+            </lg>
+            <lg>
+               <l>Trade Navigations Spurr, diſperſed <hi>Jews,</hi>
+               </l>
+               <l>Indeed teach other Nations how to uſe,</l>
+               <l>Tho they its Genuine Candor moſt abuſe.</l>
+               <l>Falſe Coyns, Adulterat Warrs, &amp; all that's ſha<g ref="char:cmbAbbrStroke">̄</g>m,</l>
+               <l>Or fraud in Trade, with them ſeems <hi>Lawful Gaine.</hi>
+               </l>
+               <l>Our moſt ungrateful Neighbours learn'd fro<g ref="char:cmbAbbrStroke">̄</g> the<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:punc">▪</g>
+               </l>
+               <l>To clip our Coyn, and ſend it back again,</l>
+               <l>Whilſt to ſave them, we all Invention rack,</l>
+               <l>The ſhameleſs Raſcals run us in the back.</l>
+               <l>Now it appears, they've ſent us five time more</l>
+               <l>Falſe Money then of true, e'r paſt the Tower.</l>
+               <l>Money it's call'd, and did for Money go,</l>
+               <l>Till it has made them high and brought us low,</l>
+               <l>How we ſhall riſe, is paſt Men's skill to know.</l>
+               <l>So bold a bare-fac'd fraud was never known.</l>
+               <l>We fall, and are with impudence undone,</l>
+               <l>Rogues not content with half of what was Good,</l>
+               <l>Clipt off ſo well, our folly underſtood.</l>
+               <l>They durſt corrupt the Nations vitial Blood.</l>
+               <pb facs="tcp:36337:9"/>
+               <l>We <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Money thence,</l>
+               <l>That two half Crowns won't ſell for 18 pence:</l>
+               <l>Ah! That I durſt their Dealings truely ſhô,</l>
+               <l>But it's not time, ſo let the Villains go.</l>
+               <l>'Tis not impoſſible the day ſhould come,</l>
+               <l>Our juſt inraged Vengeance may ſtrike home;</l>
+               <l>And make them the Reproach of Chriſtendome.</l>
+               <l>Juſtly till then we their contempt are made,</l>
+               <l>They've only left us our Plantation Trade.</l>
+               <l>In that too by their Tricks they ſo much ſhare;</l>
+               <l>We little more than their poor Factors are.</l>
+               <l>We drudge for Suggars, which it's they refine,</l>
+               <l>Their Drawbacks do our Profits undermine.</l>
+               <l>As wiſely might we ſend our Wool from home,</l>
+               <l>As let them for our <hi>Moſcovadoes</hi> come:</l>
+               <l>Bribe them indeed to come &amp; fetch them hence,</l>
+               <l>Thus we Inrich them at our own Expence.</l>
+               <l>We magnifie their Wiſdom to the Skies,</l>
+               <l>When it's our folly only makes them Wiſe;</l>
+               <l>But ſince it is alle fooliſh to complain,</l>
+               <l>I'll bring my Thoughts to <hi>Scotland</hi> back again;</l>
+               <l>Where all the <hi>Truths</hi> that <hi>Paterſon</hi> has ſaid;</l>
+               <l>Had in the end but ſmall Impreſſion made.</l>
+               <l>Had not the <hi>Engliſh</hi> Votes, and Noiſie Fears,</l>
+               <l>Awak'd the Land, and open'd all their Ears,</l>
+               <l>Thus as one Man the Nation has combin'd,</l>
+               <l>And ſpeedily a mighty Stock is joyn'd:</l>
+               <l>A Stock ſo large, a Stock ſo very great,</l>
+               <l>As muſt infallibly the Work compleat:</l>
+               <l>That the Deſign is Wiſe, I ſurely know,</l>
+               <pb facs="tcp:36337:9"/>
+               <l>Tho <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> may not <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</l>
+               <l>Wiſe Things when put in practice come in trew,</l>
+               <l>Till then it's fit they ſhould be known to ſew:</l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or Secrecie's the Soul of great Deſigns,</l>
+               <l>Made publick once, the Enemy combines.</l>
+               <l>Nothing can be contriv'd tho ne'r ſo Wiſe,</l>
+               <l>If once made known, but will find Enemies.</l>
+               <l>This much I'll ſay, thoſe that oppoſe it moſt,</l>
+               <l>Will in the End, find all their Labour loſt:</l>
+               <l>They need not Trade in Paths, were Trade before,</l>
+               <l>Of undiſcovered Trade, the World has Store.</l>
+               <l>Many bleſt Lands rich Nature can affoord,</l>
+               <l>Which never yet beheld their proper Lord:</l>
+               <l>Lands which abound in Rivers, Meads, &amp; Groves,</l>
+               <l>Where unaffrighted Birds do chant their Loves:</l>
+               <l>Where nu<g ref="char:cmbAbbrStroke">̄</g>erous Floks, &amp; Herds of harmleſs Beaſts,</l>
+               <l>Freely poſſeſs their undiſturbed reſts.</l>
+               <l>Where various Trees alſe various Fruits produce,</l>
+               <l>Some yielding Food, and ſome delicious Juice.</l>
+               <l>Where rugged Winter never yet was ſeen,</l>
+               <l>Nor leaſt defect in everlaſting Green.</l>
+               <l>Where conſtant Courſe of equal Night and Day?</l>
+               <l>Gives an Eternal Spring without decay.</l>
+               <l>New fragrant Flowers, delightful to the Eyes,</l>
+               <l>Do every Morning with the Sun ariſe.</l>
+               <l>Who there to ſearch the Earth does never ſtay,</l>
+               <l>But only wipes her Dewie Sweat away:</l>
+               <l>Whilſt cooling Breezes fan her lovely Face,</l>
+               <l>And Aromatick Smells fill every place:</l>
+               <l>Such Lands the Sun does every day behold,</l>
+               <pb facs="tcp:36337:10"/>
+               <l>With Hills of Silver, Rivers paved with Gold</l>
+               <l>Lands never yet with charming Beauties Bleſt,</l>
+               <l>Nor never yet with raging War oppreſt.</l>
+               <l>Never by Blood of Man or Beaſt defil'd,</l>
+               <l>Nor <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ever yet with Tricks of Law beguil'd,</l>
+               <l>Thus <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ree from Guilt; happy in being Wild.</l>
+            </lg>
+            <lg>
+               <l>On ſome ſuch Shoar from all Preluctancy,</l>
+               <l>
+                  <hi>This Company deſigns a Colony.</hi>
+               </l>
+               <l>To which all Mankind freely may reſort,</l>
+               <l>And find quick Juſtice in an open Port.</l>
+               <l>To that the weary Labourer may go,</l>
+               <l>And gain an eaſie Wealth in doing ſo.</l>
+               <l>Small Uſe of tireſome Labour will be there,</l>
+               <l>That Clyme richly rewards a little Care,</l>
+               <l>There every Man may chooſe a pleaſant Seat,</l>
+               <l>Which <hi>poor Men</hi> will make Rich, &amp; <hi>Rich Men</hi> Great</l>
+               <l>Black Slaves like buſſie Bees will plant them Canes</l>
+               <l>Have Juice more ſweet then honey in their <hi>Veins</hi>
+               </l>
+               <l>Which boil'd to Sugar, brings in conſtant gains</l>
+               <l>They'l raiſe them <hi>Cotton, Ginger, Indigo.</hi>
+               </l>
+               <l>
+                  <hi>Luſcious, Potatoes,</hi> and the rich <hi>Coco.</hi>
+               </l>
+               <l>Ships thence encreaſe to fetch theſe Goods away,</l>
+               <l>For which the Stock will ready Money pay.</l>
+               <l>By Manufactures here the Poor will live,</l>
+               <l>So they that go and they that ſtay will thrive.</l>
+               <l>Then <hi>Caledonia</hi> by her Lovers won,</l>
+               <l>Will now Light <hi>Shining Nuptial</hi> Robes put on,</l>
+               <l>Sea <hi>Gods,</hi> and <hi>Nymphs</hi> will dance, &amp; <hi>Tritons</hi> play</l>
+               <l>And yearly Celebrate her Wedding Day.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:36337:10"/>
+         </div>
+      </body>
+   </text>
+</TEI>
